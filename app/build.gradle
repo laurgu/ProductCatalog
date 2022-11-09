@@ -19,6 +19,9 @@ android {
     }
 
 }
+task prepareKotlinBuildScriptModel {
+
+}
 
 dependencies {
 
@@ -35,5 +38,5 @@ dependencies {
 
 }
 task wrapper(type: Wrapper){
-    gradleVersion = '7.2'
+    gradleVersion = '7.3'
 }
