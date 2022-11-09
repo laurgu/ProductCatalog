@@ -2,6 +2,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.google.gms.google-services'
 
 android {
+    namespace 'mgarzon.createbest.productcatalog'
     compileSdkVersion 33
     defaultConfig {
         applicationId "mgarzon.createbest.productcatalog"
